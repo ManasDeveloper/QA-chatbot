@@ -12,7 +12,7 @@ from langchain_community.embeddings import OllamaEmbeddings
 load_dotenv()
 
 #LANGSMITH TRACKING
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"] = "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"
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "Q&A CHATBOT With OpenAI"
 
